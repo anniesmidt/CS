@@ -1,6 +1,45 @@
+.page-content {
+   @include outer-container;  
+   padding: 0 em(50) 0 em(50);  
+}
+
+h1 {
+    color: $blue;
+    font-family: $serif;
+    font-weight: normal;
+}
+
+.static-text {
+    padding: 0 em(250) em(20) em(100);
+
+    h2 {
+        color: $blue;
+        font-size: 1.25em;
+        margin-top: em(20);   
+    }
+    
+     p { 
+        line-height: 1.75em;
+    }
+    
+    li {
+        list-style-image: url(../images/bullet.png);
+        margin-left: em(50);
+        padding-bottom: em(20);
+        
+    }
+}
+
+
+.bold {
+    font-weight: bold;
+}
+
+
+//FAQ pages with jquery accordion
 #accordion{
    @include outer-container;
-   padding: em(20) em(150) em(20) em(100);
+   padding: 0 em(150) em(20) em(50);
    
    h3 {
        color: $green;
@@ -20,8 +59,8 @@
    }
    
    p {
-       font-size: .9em;
-       line-height: 1.5em;
+        font-size: .9em;
+        line-height: 1.5em;
    }
  
   a {
@@ -30,3 +69,28 @@
   }
 }
   
+ 
+//Campedia
+.alphabet {    
+    a {
+        padding-right: .25em;
+    }
+}
+  
+  
+a.initial-letter{
+    font-weight: bold;
+    font-family: $serif;
+    font-size: 1.25em;
+    padding: 0px 615px 1px 3px;
+    background-color: $khaki;
+}
+
+a.initial-letter:hover {
+   color: $orange;
+   opacity: 1;
+}
+
+.initial-letter-bar {
+    margin-top: em(70);
+}
