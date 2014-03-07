@@ -88,3 +88,19 @@
     float: right;
 } 
  
+#camp-city, label#camp-city {
+    @include span-columns(10.65);
+    float: left;
+    
+} 
+ 
+#camp-state {
+    @include span-columns(5.25);
+    margin-right: 0;
+
+} 
+
+label#your-name {
+    margin-top: em(60);
+}
+ 
