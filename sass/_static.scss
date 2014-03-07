@@ -1,0 +1,32 @@
+#accordion{
+   @include outer-container;
+   padding: em(20) em(150) em(20) em(100);
+   
+   h3 {
+       color: $green;
+       font-size: 1em;
+       font-weight: bold;
+       background-color: transparent;
+   }
+   
+   .ui-accordion-content {
+       border: none;
+   }
+   
+   .ui-state-header, .ui-state-default{
+       background-color: transparent;
+       background-image: none;
+       border: none;
+   }
+   
+   p {
+       font-size: .9em;
+       line-height: 1.5em;
+   }
+ 
+  a {
+      color: $orange;
+      
+  }
+}
+  

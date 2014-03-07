@@ -1,0 +1,120 @@
+#details-page {
+    @include outer-container;
+    margin-top: em(20);
+}
+
+.details-left-sidebar {
+    float: left;
+    @include span-columns (4);    
+    
+   .smiley {
+        float: left;
+    }
+
+    .share-this {
+        text-transform: uppercase;
+        color: $grey;
+        font-size: .8em;
+        padding-top: em(20);
+    }
+}
+
+
+
+
+.details-content {
+    @include span-columns (11);    
+    
+    h1, h1 a {
+        margin: 0;
+        color: $blue;
+        font-family: $serif;
+        font-weight: normal;
+        
+        a:hover {
+            opacity: .5;
+        }
+    
+    }
+    
+    h2, h2 a {
+        font-family: $display;
+        color: $blue;
+    }
+    
+    .small-link {
+        font-size: .9em;
+    }
+    
+    .bold {
+    font-weight: bold;
+    color: $green;
+    } 
+
+
+    .description {
+        padding-bottom: em(20);
+    }
+
+}
+
+
+.details-features {
+    border-bottom: $grey-dashed-border;
+    padding-bottom: em(30);
+
+    
+    .checkmark {
+        color: $green;
+    }
+}
+
+
+.reviews {        
+    h2 {
+        color: $grey;
+        font-family: $display;
+        font-size: 1.5em;
+        font-weight: normal;
+        float: left;
+    }
+    
+    .add-review {
+         letter-spacing: .15em;
+         color: white;
+         font-weight: normal;
+         border-radius: em(10);
+         padding: 3px 10px;
+         border: 3px white solid;
+         @include linear-gradient(to bottom, $light-orange, $orange);
+         float: right;
+         clear: right;
+    }
+}
+
+.single-review {
+    padding-top: em(30);
+    padding-bottom: em(30);
+    
+    .rating {
+        padding-top: em(20);
+    
+        .smiley {
+            float: left;
+        }
+    }
+    
+ }
+ 
+
+.reviewer-name {
+    padding-top: em(40);
+    font-weight: bold;
+    margin: 0;
+    font-size: .9em;
+} 
+ 
+ 
+
+ 
+ 

@@ -1,0 +1,82 @@
+// Typography
+///////////////////////////////////////////////////////////////////////////////
+$sans-serif: $verdana;
+$display: 'montserrat';
+$serif: 'bree serif';
+
+$base-font-family: $sans-serif;
+$header-font-family: $display;
+
+// Sizes
+///////////////////////////////////////////////////////////////////////////////
+$base-font-size: 1em;
+$base-line-height: $base-font-size * 1.5;
+$base-border-radius: em(4);
+
+// Colors
+///////////////////////////////////////////////////////////////////////////////
+$green: #109446;
+$light-orange: #FBAA1C;
+$orange: #F27429;
+$light-yellow: #FFF8DB;
+$grey: #A7A9AC;
+$light-grey: lighten($grey, 25);
+$khaki: #E7E6DB;
+$brick: #800D0D;
+$blue: #0F9EA8;
+$black: #000000;
+
+
+// Body Color
+$base-body-color: white;
+
+//  Font Colors
+$base-font-color: $black;
+$base-accent-color: $orange;
+
+//  Text Link Colors
+$base-link-color: $base-accent-color;
+$hover-link-color: lighten($base-accent-color, 15);
+
+// Border color
+$base-border-color: $grey;
+
+// Flash Colors
+$error-color: lighten($brick, 25);
+$notice-color: lighten($light-orange, 25);
+$success-color: lighten($blue, 25);
+
+
+// Border styles
+///////////////////////////////////////////////////////////////////////////////
+
+
+//blue rule
+$blue-border: 2px $blue solid;
+
+
+//grey rule
+$grey-border: 1px $grey solid;
+
+
+//black rule
+$black-border: 2px black solid;
+
+//dashed grey rule
+$grey-dashed-border: 1px $grey dashed;
+
+
+
+// Drop shadows
+///////////////////////////////////////////////////////////////////////////////
+
+
+// Buttons
+///////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+

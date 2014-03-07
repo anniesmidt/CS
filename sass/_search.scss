@@ -1,0 +1,162 @@
+#search-filters {
+    border-bottom: $blue-border;
+    
+    
+    .share-this {
+        text-transform: uppercase;
+        color: $grey;
+        font-size: .8em;
+        margin-bottom: 0;
+        line-height: 2em;
+
+    }
+
+    form{
+        @include outer-container;
+        line-height: 1.75em;
+
+
+       .checkbox-and-label {
+            white-space: nowrap;
+        }
+
+        
+        label {
+            font-family: $display;
+            display: inline;
+            font-size: .9em;
+            padding-right: .5em;
+            letter-spacing: -.025em;
+            color: $blue;
+        }
+
+        #clear-all {
+            float: right;
+            margin-top: 1em;
+            font-size: .8em;           
+        }
+    }
+}
+
+
+
+
+.small-ads-SERP {
+     border-bottom: $grey-border;
+     padding: 8px 0 0 0;
+     background-color: $khaki;
+
+    
+    .small-ads-container{
+        @include outer-container;
+        background-color: transparent;
+    }
+    
+}
+
+
+
+
+#search-count { 
+    @include outer-container;
+
+    p{ 
+    font-size: .75em;
+    font-weight: bold;
+    margin: 0;
+    }
+}
+
+
+
+#serp-page-main-content {
+    @include outer-container;
+
+}
+
+
+
+
+
+
+.single-result-container {
+    border-bottom: 1px $blue dotted;
+    @include span-columns(10);
+    padding: em(8);
+    margin: em(5) 0;
+    @include clearfix;
+    
+    
+    .star, .thumbnail {
+        float: left;
+        }
+
+    .thumbnail, .summary {
+        padding: em(10) em(10) 0 0;
+        }
+
+    .star {
+        margin-right: em(5);
+    
+        a:hover {
+            opacity: .25;
+            }
+        }   
+    
+ 
+    .summary {
+        font-weight: bold;
+        font-family: $display;
+        
+        .town-name {
+            font-weight: normal;
+            color: $grey;
+        }
+    }
+}
+
+
+
+
+.pagination {
+    clear: both;
+    width: em(655);
+    text-align: center;
+    padding: em(10) 0;
+
+    .arrow {
+        display: inline;
+    
+        a:hover {
+            opacity: .5;
+        }
+    }
+    
+    .page-numbers {
+        display: inline;
+        vertical-align: super;
+        
+    }
+
+}
+
+
+
+#map {
+   
+    img {
+        border: 1px grey solid;
+        margin-left: 1em;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
