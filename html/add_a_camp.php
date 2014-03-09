@@ -12,8 +12,8 @@
         
         <form id="add-a-camp-form">
             
-            <label for="camp-name">Camp name</label>
-            <input type="text">
+            <label for="camp-name">Camp name*</label>
+            <input type="text" name="camp-name" required>
             
             <label for="camp-city" id="camp-city">City</label>
             <input type="text" id="camp-city">
@@ -21,14 +21,14 @@
             <label for="camp-state">State</label>
             <input type="text" id="camp-state">
             
-            <label for="camp-url">Camp's website</label>
-            <input type="url">
+            <label for="camp-url">Camp's website*</label>
+            <input type="url" required>
             
             <label for="your-name" id="your-name">Your name</label>
             <input type="text">
             
-            <label for="your-email">Your email</label>
-            <input type="email">
+            <label for="your-email">Your email*</label>
+            <input type="email" required>
             
             <label for="comments">Comments</label>
             <textarea name="comments" id="comments"></textarea>

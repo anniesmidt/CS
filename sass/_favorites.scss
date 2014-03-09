@@ -1,0 +1,192 @@
+/////////////////////////////////
+// comment out one section at //
+// a time to simulate        //
+// javascript behavior      //
+/////////////////////////////
+#single-camper-favorites {
+    display: none;
+}
+
+#manage-campers-screen  {
+   display: none;
+}  
+
+#share-favorites-form {
+   display: none;
+}
+//////////////////////////////
+//////////////////////////////
+//////////////////////////////
+//////////////////////////////
+
+
+
+
+
+//page styles
+#favorites-page {
+    @include outer-container;
+    margin-top: em(20);
+}
+
+h1 {
+    margin-bottom: em(20);
+}
+
+.favorites-left-sidebar {
+    float: left;
+    @include span-columns (4);   
+}
+    
+    
+    
+//sidebar styles
+.menu-head { 
+    @include span-columns (4);   
+    color: $green;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0px 240px 1px 3px;
+    background-color: $khaki;    
+}
+
+ul#menu-camper-list {
+    padding-left: em(10);
+
+    li {
+        font-weight: bold;
+        padding-bottom: em(5);
+  
+        .number-of-camps {
+            font-weight: normal;
+        }
+    }
+}
+
+.favorites-menu .small-link {
+    font-size: .9em;
+    padding-left: em(10);
+    padding-top: em(10);
+}
+
+
+#share-favorites {
+    float: left;
+    margin-bottom: em(20);
+    border: 3px $khaki solid;
+    border-radius: 0.625em;
+    color: white;
+    margin-top: em(20);
+    letter-spacing: .15em;
+}
+
+
+//main content styles
+
+//single camper's favorites
+
+.favorites-content {
+    float: left;
+    margin-left: em(40);
+    @include span-columns(10);
+
+    h2 {
+        font-size: 1.5em;
+        margin-top: -5px;
+        font-family: $display;
+        color: $blue;
+        margin-bottom: em(20);
+    }
+
+}
+
+
+.favorites-camp-name.bold {
+    color: $blue;
+
+}
+
+.single-camper-favorite-single-camp {
+    border-bottom: 1px $grey dashed;
+    margin-bottom: em(30);
+    padding-bottom: em(5);
+}
+
+.single-camper-favorite-single-camp p {
+    line-height: 1.1em;
+}
+
+
+.single-camper-favorites-edit-buttons {
+    margin-top: em(20);
+    float: right;
+}
+
+#view-session-page, #delete, #save, #cancel, #cancel2, #send{
+    border: 3px $khaki solid;
+    border-radius: .625em;
+    color: white;
+    letter-spacing: .15em;
+
+}
+
+
+//manage campers screen
+
+#campers-to-manage {
+
+   h3 {
+       margin-top: em(40);
+       color: $blue;
+       font-size: 1.25em;
+       font-weight: normal;
+       
+   }
+}
+
+.manageable-camper {
+    font-weight: bold;
+    color: $blue; 
+    border-bottom: 1px $grey dashed;
+}
+
+
+
+.manageable-camper-controls {
+    float: right;
+    }
+
+label {
+    color: $green;
+    margin-top: em(20);
+}
+
+input#name {
+    width: em(400);
+}
+
+input#age {
+    width: em(100);
+}
+
+input#interests-box {
+    margin-left: em(10);
+    margin-bottom: em(30);
+}
+
+#save, #cancel {
+    margin-bottom: em(40);
+}
+
+
+//share form
+#sendto-email, #message {
+    width: em(400);
+}
+
+#share-favorites-form-buttons {
+    margin-left: em(200);
+    margin-top: em(20);
+    margin-bottom: em(40);
+    
+}
