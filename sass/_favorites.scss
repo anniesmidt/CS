@@ -8,7 +8,7 @@
 }
 
 #manage-campers-screen  {
-   display: none;
+//   display: none;
 }  
 
 #share-favorites-form {
@@ -133,16 +133,15 @@ ul#menu-camper-list {
 
 //manage campers screen
 
-#campers-to-manage {
 
-   h3 {
+
+h3.favorites-h3 {
        margin-top: em(40);
        color: $blue;
        font-size: 1.25em;
-       font-weight: normal;
-       
+       font-weight: normal; 
    }
-}
+
 
 .manageable-camper {
     font-weight: bold;

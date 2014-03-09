@@ -118,7 +118,7 @@
                </div><!--end campers to manage-->
                
                                     
-                <h3>Add a new camper</h3>
+                <h3 class="favorites-h3">Add a new camper</h3>
                 <form>
                     <label for="name">Name</label>
                     <input type="text" placeholder="name" id="name">
