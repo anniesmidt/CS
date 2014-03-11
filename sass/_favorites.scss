@@ -36,11 +36,27 @@ h1 {
 .favorites-left-sidebar {
     float: left;
     @include span-columns (4);   
+    
 }
-    
-    
+
+///////////// NEW //////////////
+#favorites-page-container {
+    @include outer-container;
+}    
+///////////////////////////////    
     
 //sidebar styles
+
+///////////// NEW //////////////
+.favorites-menu {
+    float: left;
+    width: 280px;
+    margin-right: -280px;
+    position: relative;  
+}
+/////////////////////////////// 
+
+
 .menu-head { 
     @include span-columns (4);   
     color: $green;
