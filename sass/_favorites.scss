@@ -50,8 +50,8 @@ h1 {
 ///////////// NEW //////////////
 .favorites-menu {
     float: left;
-    width: 280px;
-    margin-right: -280px;
+    width: em(280);
+    margin-right: em(-280px);
     position: relative;  
 }
 /////////////////////////////// 
