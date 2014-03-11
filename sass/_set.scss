@@ -1,0 +1,29 @@
+.star-box {
+    border: 1px solid $blue;
+    @include span-columns(2);
+    padding: em(10);
+    box-shadow: 0px 5px 5px $grey;
+    font-family: $display;
+
+}
+
+#set-favorites {
+    border-radius: .625em;
+    color: white;
+    letter-spacing: .25em;
+    float: right;   
+}
+
+
+
+
+//do not keep//
+.spacer {
+    padding: 70px;
+}
+
+.star-box, .star {
+        margin-left: 100px;
+}
+// end do not keep//
+
